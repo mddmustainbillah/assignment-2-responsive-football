@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main-section{
+    background-color: #2F2DA0;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 10%;
+    height: 580px;
+    
+}
+.main-img img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    
+}
+.main-img{
+    margin-top: 40px;
+}
+.main-text{
+    margin-top: 85px;
+
+}
+
+.main-text h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+}
+.btn{
+    color: white;
+    background-color: #E1426D;
+    padding: 10px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
