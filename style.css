@@ -3,6 +3,9 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+/* Main Section start */
+
 .main-section{
     background-color: #2F2DA0;
 }
@@ -16,11 +19,14 @@
 .main-img img{
     max-width: 100%;
     max-height: 100%;
-    display: block;
-    
+    display: block;  
+}
+.main-img:hover{
+    transform: scale(1.3);
 }
 .main-img{
     margin-top: 40px;
+    transition: transform 1s ease-in-out; 
 }
 .main-text{
     margin-top: 85px;
@@ -39,10 +45,11 @@
     font-size: 1.2em;
     cursor: pointer;
 }
+/* Main section end */
 
 
 
-
+/* Player card section start */
 
 .players{
     display: grid;
@@ -76,3 +83,33 @@
     justify-content: center;
     color: #6C6C6C;
 }
+
+/* Player card section end */
+
+
+
+/* Footer part start */ 
+
+.footer-part{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.footer-part img{
+    width: 450px;
+    height: 110px;
+}
+.footer-icon{
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.footer-icon a{
+    color: gray;
+}
+.copy-right{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* footer part end */
+
